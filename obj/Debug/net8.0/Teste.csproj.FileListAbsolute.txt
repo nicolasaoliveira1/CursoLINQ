@@ -1,0 +1,14 @@
+c:\Users\Nicolas\Desktop\c#\LINQ\Teste\bin\Debug\net8.0\Teste.exe
+C:\Users\Nicolas\Desktop\c#\LINQ\Teste\bin\Debug\net8.0\Teste.deps.json
+C:\Users\Nicolas\Desktop\c#\LINQ\Teste\bin\Debug\net8.0\Teste.runtimeconfig.json
+c:\Users\Nicolas\Desktop\c#\LINQ\Teste\bin\Debug\net8.0\Teste.dll
+c:\Users\Nicolas\Desktop\c#\LINQ\Teste\bin\Debug\net8.0\Teste.pdb
+c:\Users\Nicolas\Desktop\c#\LINQ\Teste\obj\Debug\net8.0\Teste.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\Nicolas\Desktop\c#\LINQ\Teste\obj\Debug\net8.0\Teste.AssemblyInfoInputs.cache
+c:\Users\Nicolas\Desktop\c#\LINQ\Teste\obj\Debug\net8.0\Teste.AssemblyInfo.cs
+c:\Users\Nicolas\Desktop\c#\LINQ\Teste\obj\Debug\net8.0\Teste.csproj.CoreCompileInputs.cache
+c:\Users\Nicolas\Desktop\c#\LINQ\Teste\obj\Debug\net8.0\Teste.dll
+c:\Users\Nicolas\Desktop\c#\LINQ\Teste\obj\Debug\net8.0\refint\Teste.dll
+c:\Users\Nicolas\Desktop\c#\LINQ\Teste\obj\Debug\net8.0\Teste.pdb
+C:\Users\Nicolas\Desktop\c#\LINQ\Teste\obj\Debug\net8.0\Teste.genruntimeconfig.cache
+C:\Users\Nicolas\Desktop\c#\LINQ\Teste\obj\Debug\net8.0\ref\Teste.dll
