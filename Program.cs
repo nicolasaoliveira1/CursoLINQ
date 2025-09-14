@@ -1,4 +1,5 @@
 ﻿using System;
+using BenchmarkDotNet.Running;
 using LINQ.Class1;
 using LINQ.Class10;
 using LINQ.Class11;
@@ -11,6 +12,8 @@ using LINQ.Class17;
 using LINQ.Class18;
 using LINQ.Class19;
 using LINQ.Class2;
+using LINQ.Class20;
+using LINQ.Class21;
 using LINQ.Class3;
 using LINQ.Class4;
 using LINQ.Class5;
@@ -19,6 +22,7 @@ using LINQ.Class7;
 using LINQ.Class8;
 using LINQ.Class9;
 using LINQ.Models;
+using LINQ.Performance;
 
 namespace LINQ
 {
@@ -52,7 +56,7 @@ namespace LINQ
             #endregion
 
             #region [+] LINQ Where
-            // LinqWhere.ExampleWhereIdsGreaterThanValue(people, 5); ;
+            // LinqWhere.ExampleWhereIdsGreaterThanValue(people, 5);
             // LinqWhere.ExampleWhereNameContainsValue(people, "1");
 
             #endregion
@@ -192,17 +196,35 @@ namespace LINQ
 
             #region [+] LINQ GroupBy
 
-            Console.WriteLine("---------------> Pessoas desagrupadas <---------------\n");
+            // Console.WriteLine("---------------> Pessoas desagrupadas <---------------\n");
 
-            var peopleToShow = people.Select(s => $"Id: {s.Id} - Nome: {s.Name} - Sexo: {s.Gender} - Curso: {s.Course}");
+            // var peopleToShow = people.Select(s => $"Id: {s.Id} - Nome: {s.Name} - Sexo: {s.Gender} - Curso: {s.Course}");
 
-            Console.WriteLine(string.Join("\n", peopleToShow));
-            Console.WriteLine("\n\n");
-            LinqGroupBy.ExampleGroupByOneKey(people);
-            Console.WriteLine("\n\n");
-            LinqGroupBy.ExampleGroupByComposedKey(people);
+            // Console.WriteLine(string.Join("\n", peopleToShow));
+            // Console.WriteLine("\n\n");
+            // LinqGroupBy.ExampleGroupByOneKey(people);
+            // Console.WriteLine("\n\n");
+            // LinqGroupBy.ExampleGroupByComposedKey(people);
 
             #endregion
+
+            #region [+] LINQ MaxBy and MinBy
+
+            // LinqMaxMinBy.ExampleOldSmallestId(people);   
+            // LinqMaxMinBy.ExampleOldBiggestId(people);
+            // LinqMaxMinBy.ExampleNewSmallestId(people);   
+            // LinqMaxMinBy.ExampleNewBiggestId(people);   
+
+            #endregion
+
+            #region [+] LINQ Chunk
+
+            // LinqChunk.ExampleOldChunk(people, 5);
+            // LinqChunk.ExampleNewChunk(people, 5);
+
+            #endregion
+
+            // BenchmarkRunner.Run<Benchy>();
 
             Console.ReadKey();
         }
